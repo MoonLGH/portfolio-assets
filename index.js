@@ -31,6 +31,7 @@ async function processProjects(projects) {
 }
 
 async function main() {
+  fs.mkdirSync(outputPath)
   await processProjects(data.projects);
 
   // Write the modified data to the output file
