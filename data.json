@@ -4,7 +4,7 @@
       "repo": "MoonLGH/TcuNim",
       "description": "TcuNim is an open-source project that provides an easy-to-use web interface for displaying video content from TcuNim APIs/Third parties API.",
       "screenshoot": true,
-      "path": "./TcuNim",
+      "path": "./TcuNim.png",
       "tech": [
         "tailwindcss-SHOW",
         "daisyui",
@@ -28,7 +28,7 @@
       "repo": "RPLSaci/mosansa",
       "description": "Official Website for [SMAN 1 Cikampek](https://sman1cikampek.sch.id) Student Council & Class representative",
       "screenshoot": true,
-      "path": "./mosansa",
+      "path": "./mosansa.png",
       "tech": [
         "tailwindcss-SHOW",
         "daisyui",
@@ -41,7 +41,7 @@
       "repo": "RPLSaci/rplsaci.github.io",
       "description": "Official Website for [SMAN 1 Cikampek](https://sman1cikampek.sch.id) Software Engineering extraculicular",
       "screenshoot": true,
-      "path": "./rpl",
+      "path": "./rpl.png",
       "tech": [
         "tailwindcss-SHOW",
         "daisyui",
@@ -56,7 +56,7 @@
       "repo": "MoonLGH/fccDrumMachine",
       "description": "My solution to the Freecodecamp Drum frontend problem",
       "screenshoot": true,
-      "path": "./fccDrumMachine",
+      "path": "./fccDrumMachine.png",
       "tech": [
         "react",
         "js"
@@ -66,7 +66,7 @@
       "repo": "MoonLGH/fccRandomQuote",
       "description": "My solution to the Freecodecamp Random Quote frontend problem",
       "screenshoot": true,
-      "path": "./fccRandomQuote",
+      "path": "./fccRandomQuote.png",
       "tech": [
         "react",
         "js"
@@ -76,7 +76,7 @@
       "repo": "MoonLGH/fccReactTimerClock",
       "description": "My solution to the Freecodecamp 25+5 frontend problem",
       "screenshoot": true,
-      "path": "./fccReactTimerClock",
+      "path": "./fccReactTimerClock.png",
       "tech": [
         "react",
         "jsx"
@@ -86,7 +86,7 @@
       "repo": "MoonLGH/fccCalculatorJS",
       "description": "My solution to the Freecodecamp Calculator frontend problem",
       "screenshoot": true,
-      "path": "./fccCalculatorJS",
+      "path": "./fccCalculatorJS.png",
       "tech": [
         "react",
         "js",
@@ -97,7 +97,7 @@
       "repo": "MoonLGH/fccMdPreview",
       "description": "My solution to the Freecodecamp Markdown frontend problem",
       "screenshoot": true,
-      "path": "./fccMdPreview",
+      "path": "./fccMdPreview.png",
       "tech": [
         "react",
         "js",
