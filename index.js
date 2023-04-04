@@ -9,14 +9,13 @@ const rawData = fs.readFileSync(dataPath);
 const data = JSON.parse(rawData);
 
 async function takeScreenshot(path, screenshotPath) {
-  const browser = await puppeteer.launch({
-  });
+  const browser = await puppeteer.launch({});
   const page = await browser.newPage();
   await page.goto(path);
   await page.setViewport({
     width: 1366,
     height: 768
-  })
+  });
   await page.screenshot({ path: screenshotPath+".png" });
   await browser.close();
 }
@@ -36,12 +35,13 @@ async function processProjects(projects) {
 }
 
 async function main() {
-    if(fs.existsSync(outputPath)){
-        fs.unlinkSync(outputPath,)
-    }
-  fs.mkdirSync(outputPath)
+  if (fs.existsSync(outputPath)) {
+    fs.rmSync(outputPath, { recursive: true });
+  }
+  fs.mkdirSync(outputPath);
 
   await processProjects(data.projects);
+  await processProjects(data['fcc-front-end']);
 
   // Write the modified data to the output file
   const outputData = JSON.stringify(data, null, 2);
