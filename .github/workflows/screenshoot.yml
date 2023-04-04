@@ -1,0 +1,31 @@
+name: Screenshot Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  take-screenshots:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm-dev
+          sudo apt install -y ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1
+          npm install
+
+      - name: Take Screenshots and Copy Files
+        run: node index.js
+
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: output
+          FOLDER: output
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

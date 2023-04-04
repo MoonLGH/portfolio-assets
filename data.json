@@ -1,0 +1,25 @@
+{
+    "projects":[
+        {
+            "repo":"MoonLGH/TcuNim",
+            "description":"TcuNim is an open-source project that provides an easy-to-use web interface for displaying video content from TcuNim APIs/Third parties API.",
+            "screenshoot": true,
+            "path":"https://moonlgh.github.io/TcuNim"
+        },{
+            "repo":"MoonLGH/BeatmapDownloader",
+            "description": "An open-source application that does like a lazer inbuilt download system for osu stable",
+            "screenshoot":false,
+            "path":"manual/BeatmapDownloader.png"
+        }, {
+            "repo":"RPLSaci/mosansa",
+            "description":"Official Website for [SMAN 1 Cikampek](https://sman1cikampek.sch.id) Student Council & Class representative",
+            "screenshoot":true,
+            "path":"https://sman1cikampek.sch.id/mosansa"
+        },{
+            "repo":"RPLSaci/rplsaci.github.io",
+            "description":"Official Website for [SMAN 1 Cikampek](https://sman1cikampek.sch.id) Software Engineering extraculicular",
+            "screenshoot":true,
+            "path":"https://sman1cikampek.sch.id/rpl"
+        }
+    ]
+}
