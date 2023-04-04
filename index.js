@@ -12,7 +12,7 @@ async function takeScreenshot(path, screenshotPath) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(path);
-  await page.screenshot({ path: screenshotPath });
+  await page.screenshot({ path: screenshotPath+".png" });
   await browser.close();
 }
 
