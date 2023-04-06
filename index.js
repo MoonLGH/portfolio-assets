@@ -16,6 +16,7 @@ async function takeScreenshot(path, screenshotPath) {
     width: 1366,
     height: 768
   });
+  await page.waitForTimeout(5000); // Wait for 5 seconds after page load
   await page.screenshot({ path: screenshotPath+".png" });
   await browser.close();
 }
