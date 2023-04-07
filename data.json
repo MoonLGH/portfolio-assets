@@ -49,6 +49,18 @@
         "flowbite",
         "parcel-SHOW"
       ]
+    },
+    {
+      "repo": "FarrelAH/ALSFaradityaSuksesPerkasa",
+      "description": "Official Website for my father's company",
+      "screenshoot": true,
+      "path": "./ALSFaradityaSuksesPerkasa.png",
+      "tech": [
+        "tailwindcss-SHOW",
+        "daisyui",
+        "html-SHOW",
+        "parcel-SHOW"
+      ]
     }
   ],
   "fcc-front-end": [
