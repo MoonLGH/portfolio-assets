@@ -24,6 +24,12 @@
             "screenshoot":true,
             "path":"https://sman1cikampek.sch.id/rpl",
             "tech": ["tailwindcss-SHOW","daisyui","html-SHOW","flowbite","parcel-SHOW"]
+        },{
+            "repo":"FarrelAH/ALSFaradityaSuksesPerkasa",
+            "description":"Official Website for father's company",
+            "screenshoot":true,
+            "path":"https://farrelah.github.io/ALSFaradityaSuksesPerkasa",
+            "tech":["tailwindcss-SHOW","daisyui","html-SHOW","parcel-SHOW"]
         }
     ],
     "fcc-front-end":[
