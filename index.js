@@ -23,6 +23,7 @@ async function takeScreenshot(path, screenshotPath) {
 
 async function processProjects(projects) {
   for (let project of projects) {
+    if(project.node) return
     const {screenshoot, path} = project;
     let filename = path.split('/').pop();
     let outputPathname = outputPath + filename;
