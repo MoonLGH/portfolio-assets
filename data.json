@@ -52,7 +52,7 @@
     },
     {
       "repo": "FarrelAH/ALSFaradityaSuksesPerkasa",
-      "description": "Official Website for father's company",
+      "description": "Official Website for my father's company",
       "screenshoot": true,
       "path": "./ALSFaradityaSuksesPerkasa.png",
       "tech": [
@@ -114,6 +114,53 @@
         "react",
         "js",
         "marked"
+      ]
+    }
+  ],
+  "fcc-back-end": [
+    {
+      "repo": "MoonLGH/boilerplate-project-urlshortener",
+      "description": "My solution to the Freecodecamp urlshortener backend",
+      "node": true,
+      "tech": [
+        "express",
+        "js"
+      ]
+    },
+    {
+      "repo": "MoonLGH/boilerplate-project-headerparser",
+      "description": "My solution to the Freecodecamp headerparser backend",
+      "node": true,
+      "tech": [
+        "express",
+        "js"
+      ]
+    },
+    {
+      "repo": "MoonLGH/boilerplate-project-timestamp",
+      "description": "My solution to the Freecodecamp timestamp backend",
+      "node": true,
+      "tech": [
+        "express",
+        "js"
+      ]
+    },
+    {
+      "repo": "MoonLGH/boilerplate-project-exercisetracker",
+      "description": "My solution to the Freecodecamp exercisetracker backend",
+      "node": true,
+      "tech": [
+        "express",
+        "js"
+      ]
+    },
+    {
+      "repo": "MoonLGH/boilerplate-project-filemetadata",
+      "description": "My solution to the Freecodecamp filemetadata backend",
+      "node": true,
+      "tech": [
+        "express",
+        "js"
       ]
     }
   ]
