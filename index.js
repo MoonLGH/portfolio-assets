@@ -29,6 +29,7 @@ async function processProjects(projects) {
     let outputPathname = outputPath + filename;
     if (screenshoot === true) {
       await takeScreenshot(path, outputPathname);
+      project.url = project.path;
       project.path = `./${filename}.png`;
     } else {
       fs.copyFileSync(path, outputPathname);
