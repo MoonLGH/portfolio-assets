@@ -11,7 +11,8 @@
         "html-SHOW",
         "flowbite",
         "parcel-SHOW"
-      ]
+      ],
+      "url": "https://moonlgh.github.io/TcuNim"
     },
     {
       "repo": "MoonLGH/BeatmapDownloader",
@@ -35,7 +36,8 @@
         "html-SHOW",
         "flowbite",
         "parcel-SHOW"
-      ]
+      ],
+      "url": "https://sman1cikampek.sch.id/mosansa"
     },
     {
       "repo": "RPLSaci/rplsaci.github.io",
@@ -48,7 +50,8 @@
         "html-SHOW",
         "flowbite",
         "parcel-SHOW"
-      ]
+      ],
+      "url": "https://sman1cikampek.sch.id/rpl"
     },
     {
       "repo": "FarrelAH/ALSFaradityaSuksesPerkasa",
@@ -60,7 +63,8 @@
         "daisyui",
         "html-SHOW",
         "parcel-SHOW"
-      ]
+      ],
+      "url": "https://farrelah.github.io/ALSFaradityaSuksesPerkasa"
     }
   ],
   "fcc-front-end": [
@@ -72,7 +76,8 @@
       "tech": [
         "react",
         "js"
-      ]
+      ],
+      "url": "https://moonlgh.github.io/fccDrumMachine"
     },
     {
       "repo": "MoonLGH/fccRandomQuote",
@@ -82,7 +87,8 @@
       "tech": [
         "react",
         "js"
-      ]
+      ],
+      "url": "https://moonlgh.github.io/fccRandomQuote"
     },
     {
       "repo": "MoonLGH/fccReactTimerClock",
@@ -92,7 +98,8 @@
       "tech": [
         "react",
         "jsx"
-      ]
+      ],
+      "url": "https://moonlgh.github.io/fccReactTimerClock"
     },
     {
       "repo": "MoonLGH/fccCalculatorJS",
@@ -103,7 +110,8 @@
         "react",
         "js",
         "mathjs"
-      ]
+      ],
+      "url": "https://moonlgh.github.io/fccCalculatorJS"
     },
     {
       "repo": "MoonLGH/fccMdPreview",
@@ -114,7 +122,8 @@
         "react",
         "js",
         "marked"
-      ]
+      ],
+      "url": "https://moonlgh.github.io/fccMdPreview"
     }
   ],
   "fcc-back-end": [
