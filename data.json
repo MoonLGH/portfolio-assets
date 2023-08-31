@@ -172,5 +172,6 @@
         "js"
       ]
     }
-  ]
+  ],
+  "pfp": "./output/pfpLinked.jpeg"
 }
