@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const { load } = require('cheerio');
 
 const dataPath = './data.json';
 const outputPath = './output/';
@@ -47,9 +48,17 @@ async function main() {
   await processProjects(data.projects);
   await processProjects(data['fcc-front-end']);
 
+  await getLinkedInPfp(data.pfp);
   // Write the modified data to the output file
   const outputData = JSON.stringify(data, null, 2);
   fs.writeFileSync(outputPath + 'data.json', outputData);
+}
+
+
+async function getLinkedInPfp(input){
+  let inputName = input.split("/").pop()
+  fs.copyFileSync(input, outputPath+inputName);
+  data["pfp"] = outputPath+inputName
 }
 
 main();

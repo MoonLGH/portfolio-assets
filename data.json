@@ -100,5 +100,6 @@
             "node":true,
             "tech": ["express","js"]
         }
-    ]
+    ],
+    "pfp":"manual/pfpLinked.jpeg"
 }
