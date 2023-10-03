@@ -13,6 +13,7 @@ async function takeScreenshot(path, screenshotPath) {
   const browser = await puppeteer.launch({});
   const page = await browser.newPage();
   await page.goto(path);
+  console.log(path)
   await page.setViewport({
     width: 1366,
     height: 768
