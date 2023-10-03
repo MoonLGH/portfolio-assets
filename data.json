@@ -3,8 +3,8 @@
         {
             "repo":"RPLSaci/MyPadi",
             "description": "Application on making new Farmer's life on getting started easier",
-            "screenshoot": true,
-            "path":"https://rplsaci.tech/MyPadi/",
+            "screenshoot": false,
+            "path":"manual/mypadi.png",
             "tech": ["tailwindcss-SHOW","daisyui","html-SHOW","flowbite","parcel-SHOW"]
         },
         {

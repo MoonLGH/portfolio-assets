@@ -10,10 +10,11 @@ const rawData = fs.readFileSync(dataPath);
 const data = JSON.parse(rawData);
 
 async function takeScreenshot(path, screenshotPath) {
-  const browser = await puppeteer.launch({});
+  const browser = await puppeteer.launch({headless:"false"});
   const page = await browser.newPage();
-  await page.goto(path);
   console.log(path)
+  await page.goto(path,{waitUntil:"networkidle0"});
+
   await page.setViewport({
     width: 1366,
     height: 768
