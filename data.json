@@ -8,6 +8,13 @@
             "tech": ["tailwindcss-SHOW","daisyui","html-SHOW","flowbite","parcel-SHOW"]
         },
         {
+            "repo":"Fire Fighter",
+            "description": "A Project for local fire fighter company which sells item through payment gateway",
+            "screenshoot": false,
+            "path":"manual/ff.png",
+            "tech": ["tailwindcss-SHOW","daisyui","html-SHOW","flowbite","parcel-SHOW","midtrans-SHOW"]
+        },
+        {
             "repo":"MoonLGH/TcuNim",
             "description":"TcuNim is an open-source project that provides an easy-to-use web interface for displaying video content from TcuNim APIs/Third parties API.",
             "screenshoot": true,
@@ -23,13 +30,13 @@
             "repo":"RPLSaci/mosansa",
             "description":"Official Website for [SMAN 1 Cikampek](https://sman1cikampek.sch.id) Student Council & Class representative",
             "screenshoot":true,
-            "path":"https://sman1cikampek.sch.id/mosansa",
+            "path":"https://rplsaci.github.io/mosansa",
             "tech": ["tailwindcss-SHOW","daisyui","html-SHOW","flowbite","parcel-SHOW"]
         },{
             "repo":"RPLSaci/rplsaci.github.io",
             "description":"Official Website for [SMAN 1 Cikampek](https://sman1cikampek.sch.id) Software Engineering extraculicular",
             "screenshoot":true,
-            "path":"https://sman1cikampek.sch.id/rpl",
+            "path":"https://rplsaci.github.io/",
             "tech": ["tailwindcss-SHOW","daisyui","html-SHOW","flowbite","parcel-SHOW"]
         },{
             "repo":"FarrelAH/ALSFaradityaSuksesPerkasa",
